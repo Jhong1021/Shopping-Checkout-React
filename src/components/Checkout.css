@@ -1,0 +1,50 @@
+/* Checkout.css */
+
+.container {
+    margin-top: 20px;
+  }
+  
+  .checkout-items {
+    margin-top: 20px;
+  }
+  
+  .checkout-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkout-item-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+  }
+  
+  .checkout-item-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .ml-3 {
+    margin-left: 15px;
+  }
+  
+  .ml-auto {
+    margin-left: auto;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .button-group .btn {
+    flex: 1; /* Allows buttons to grow equally */
+    max-width: 200px; /* Limit the max width of the buttons */
+    margin: 0 5px; /* Space between buttons */
+  }
+  
